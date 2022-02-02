@@ -1,0 +1,7 @@
+auditech-demo
+
+server/node_modules
+
+server/.env
+
+client/node_modules

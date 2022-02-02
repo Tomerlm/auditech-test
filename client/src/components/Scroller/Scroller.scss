@@ -1,0 +1,34 @@
+.iconContainer {
+  position: absolute;
+  top: 50%;
+  right: 200px;
+  height: 50px;
+  width: 50px;
+  opacity: 0;
+  animation: scroll 2s ease-in 200ms 1 normal;
+
+  img {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  50% {
+    transform: translateY(-50px) scale(1);
+  }
+  75% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+  100% {
+    transform: translateY(50px);
+  }
+}

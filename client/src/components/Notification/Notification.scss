@@ -1,0 +1,10 @@
+.notificationContainer {
+  box-shadow: 1px 1px solid black;
+  height: 100px;
+
+  .title {
+    padding-top: 16px;
+    font-size: 20;
+    color: red;
+  }
+}
